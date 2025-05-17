@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Plant Maintenance Services Oman | Industrial Facility Maintenance | AL WEJHA GROUP</title>
+  <meta name="description" content="Comprehensive Plant Maintenance Services in Oman - Preventive & Corrective Maintenance for Industrial Facilities. 24/7 Support in Muscat, Sohar, Salalah.">
+  <meta name="keywords" content="Plant Maintenance Oman, Industrial Maintenance Services, Facility Maintenance Oman, Predictive Maintenance, Machinery Maintenance, HVAC Maintenance Oman">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://plant-maintenance-services-oman.alwejhagroup.com/" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Archivo:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <style>
+    :root {
+      --industrial-green: #4CAF50;
+      --maintenance-blue: #2196F3;
+      --safety-orange: #FF9800;
+      --dark-bg: #263238;
+      --light-bg: #f5f5f5;
+    }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--light-bg);
+      margin: 0;
+      color: #37474F;
+      line-height: 1.6;
+    }
+    
+    header {
+      background: linear-gradient(135deg, var(--dark-bg), #1B5E20);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    header::after {
+      content: "";
+      position: absolute;
+      bottom: -50px;
+      left: 0;
+      right: 0;
+      height: 100px;
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path fill="%23f5f5f5" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25"/></svg>');
+      background-size: cover;
+      z-index: 1;
+    }
+    
+    header h1 {
+      font-family: 'Archivo', sans-serif;
+      font-size: 2.8rem;
+      margin: 0 0 15px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    nav {
+      background-color: white;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      padding: 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    nav a {
+      margin: 0 15px;
+      color: var(--dark-bg);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 18px 0;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+    
+    nav a::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(to right, var(--industrial-green), var(--maintenance-blue));
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    
+    nav a:hover::before {
+      transform: scaleX(1);
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .hero-img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 60px 0 40px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+      border: 1px solid rgba(0,0,0,0.08);
+    }
+    
+    .maintenance-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin: 60px 0;
+    }
+    
+    .service-card {
+      background: white;
+      border-radius: 8px;
+      padding: 30px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      border-top: 4px solid var(--industrial-green);
+    }
+    
+    .predictive-card {
+      border-color: var(--maintenance-blue);
+    }
+    
+    .safety-card {
+      border-color: var(--safety-orange);
+    }
+    
+    .cta-section {
+      background: linear-gradient(135deg, var(--dark-bg), #2E7D32);
+      color: white;
+      padding: 60px 20px;
+      margin: 60px 0;
+      border-radius: 8px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      background: linear-gradient(to right, var(--industrial-green), var(--maintenance-blue));
+      color: white;
+      padding: 14px 30px;
+      text-decoration: none;
+      border-radius: 4px;
+      margin: 10px 10px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    
+    .cta-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    
+    footer {
+      background: linear-gradient(to right, var(--dark-bg), #2E7D32);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      margin-top: 60px;
+    }
+    
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      
+      .hero-img {
+        height: 350px;
+      }
+      
+      .maintenance-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Plant Maintenance Services Oman</h1>
+    <p>Professional Maintenance Solutions for Industrial Facilities</p>
+  </header>
+
+  <nav>
+    <div class="nav-container">
+      <a href="https://www.alwejhagroup.com/"><i class="fas fa-home"></i> Home</a>
+      <a href="https://www.alwejhagroup.com/area-of-expertise"><i class="fas fa-cogs"></i> Expertise</a>
+      <a href="https://www.alwejhagroup.com/our-services"><i class="fas fa-tools"></i> Services</a>
+      <a href="https://www.alwejhagroup.com/our-clients"><i class="fas fa-users"></i> Clients</a>
+      <a href="https://www.alwejhagroup.com/contact"><i class="fas fa-envelope"></i> Contact</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <img class="hero-img" 
+         src="./plant-maintenance-services-oman.webp" 
+         alt="Plant Maintenance Services in Oman - Industrial Facility Maintenance"
+         loading="eager">
+
+    <section>
+      <h2><i class="fas fa-industry" style="color: var(--industrial-green);"></i> Maintenance Services</h2>
+      <p>AL WEJHA GROUP provides comprehensive plant maintenance solutions for industrial facilities across Oman.</p>
+      
+      <div class="maintenance-grid">
+        <div class="service-card">
+          <h3><i class="fas fa-wrench" style="color: var(--industrial-green);"></i> Preventive Maintenance</h3>
+          <ul>
+            <li>Scheduled equipment servicing</li>
+            <li>Lubrication management</li>
+            <li>Vibration analysis</li>
+            <li>Thermal imaging checks</li>
+          </ul>
+        </div>
+        
+        <div class="service-card predictive-card">
+          <h3><i class="fas fa-chart-line" style="color: var(--maintenance-blue);"></i> Predictive Maintenance</h3>
+          <ul>
+            <li>Condition monitoring</li>
+            <li>Oil analysis programs</li>
+            <li>Ultrasonic testing</li>
+            <li>Motor current analysis</li>
+          </ul>
+        </div>
+
+        <div class="service-card safety-card">
+          <h3><i class="fas fa-hard-hat" style="color: var(--safety-orange);"></i> Safety Maintenance</h3>
+          <ul>
+            <li>Emergency system checks</li>
+            <li>Fire suppression maintenance</li>
+            <li>Safety valve testing</li>
+            <li>PPE inspections</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <h2>Need Reliable Plant Maintenance?</h2>
+      <p>Ensure continuous operation of your industrial facility</p>
+      <div>
+        <a href="https://www.alwejhagroup.com/contact" class="cta-button"><i class="fas fa-calendar-check"></i> Schedule Maintenance</a>
+        <a href="https://www.alwejhagroup.com/our-projects" class="cta-button"><i class="fas fa-clipboard-list"></i> View Maintenance Plans</a>
+      </div>
+    </section>
+
+    <section style="background: rgba(76,175,80,0.05); padding: 40px; border-radius: 8px; border-left: 4px solid var(--industrial-green);">
+      <h2><i class="fas fa-certificate" style="color: var(--industrial-green);"></i> Maintenance Credentials</h2>
+      <ul>
+        <li>ISO 55000 certified</li>
+        <li>Omani government approved</li>
+        <li>24/7 emergency response</li>
+        <li>Original equipment manufacturer trained</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 AL WEJHA GROUP | Plant Maintenance Division</p>
+    <p>Serving Industrial Facilities Across Oman</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /cgi-bin/
+
+Sitemap: https://plant-maintenance-services-oman.alwejhagroup.com/sitemap.xml
